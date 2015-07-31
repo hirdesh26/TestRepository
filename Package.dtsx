@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{58EB3460-325E-400B-BCC8-B2CD8ABCCB8B}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{0AE7AE00-4439-4131-8267-D5DC5459D668}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4910,11 +4910,15 @@
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
-          TopLeft="445,206" />
+          TopLeft="139,67" />
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task 1"
-          TopLeft="714,196" />
+          TopLeft="545,192" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task 2"
+          TopLeft="321,67" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
@@ -4922,10 +4926,6 @@
           Size="269,131"
           Id="Package\Foreach Loop Container"
           TopLeft="133,140" />
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Data Flow Task 2"
-          TopLeft="728,106" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
