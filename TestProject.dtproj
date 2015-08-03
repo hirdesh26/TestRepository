@@ -18,6 +18,11 @@
           <FullPath>Package.dtsx</FullPath>
           <References />
         </DtsPackage>
+        <DtsPackage FormatVersion="6">
+          <Name>Package1.dtsx</Name>
+          <FullPath>Package1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
       </DTSPackages>
     </Manifest>
   </DeploymentModelSpecificContent>
@@ -31,13 +36,7 @@
         <ConnectionProviderMappings />
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
-        <ParameterConfigurationValues>
-          <ConfigurationSetting>
-            <Id>LastModifiedTime</Id>
-            <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2015-07-16T12:30:34.5619647Z</Value>
-          </ConfigurationSetting>
-        </ParameterConfigurationValues>
+        <ParameterConfigurationValues />
       </Options>
     </Configuration>
   </Configurations>
