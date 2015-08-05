@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{CA6657D6-1F97-4DF1-A8A7-EF44F33A4F1A}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{72EB1508-E5D5-4CF2-8709-62EA83F5EE45}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -43,7 +43,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E6C0927F-1DF4-4A94-97BC-392AB578415B}"
-          SQLTask:SqlStatementSource="Select 3" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Select 4" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
